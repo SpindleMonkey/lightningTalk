@@ -44,6 +44,7 @@ docker-compose --version
 docker-machine --version
 
 docker run hello-world
+  runs a built-in image
 
 docker run -d -p 80:80 --name webserver nginx
   starts a dockerized web server; go to http://localhost/ to see home page
@@ -70,7 +71,7 @@ docker images
 
 ** Tutorials
 
-* I started with [Docker for beginners] (https://github.com/docker/labs/tree/master/beginner/)
+* I started with [Docker for beginners](https://github.com/docker/labs/tree/master/beginner/)
 * More tutorials can be found here: [https://docs.docker.com/samples/](https://docs.docker.com/samples/)
 
 
